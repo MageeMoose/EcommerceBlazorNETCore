@@ -21,4 +21,8 @@
     <ProjectReference Include="..\Shared\EcommerceBlazorNETCore.Shared.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Service" />
+  </ItemGroup>
+
 </Project>
