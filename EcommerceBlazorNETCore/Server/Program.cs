@@ -2,6 +2,7 @@ global using EcommerceBlazorNETCore.Shared;
 global using Microsoft.EntityFrameworkCore;
 global using EcommerceBlazorNETCore.Server.Data;
 global using EcommerceBlazorNETCore.Server.Services.ProductService;
+global using EcommerceBlazorNETCore.Server.Services.CategoryService;
 using EcommerceBlazorNETCore.Server.Data;
 using Microsoft.AspNetCore.ResponseCompression;
 
@@ -20,6 +21,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<IProductService, ProducService>();
+builder.Services.AddScoped<ICategoryService, CategoryService>();
 
 var app = builder.Build();
 
