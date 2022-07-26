@@ -59,7 +59,7 @@ public class DataContext :DbContext
                     "way inevitably clean the sensors as instructed, but they also inevitably die a few minutes later",
                 ImageUrl = "https://upload.wikimedia.org/wikipedia/commons/1/1b/Hugh_C_Howey_Wool_Omnibus.jpg",
                 Price = 5.99m,
-                CategoryId = 2
+                CategoryId = 1
             },
             new Product
             {
@@ -74,7 +74,7 @@ public class DataContext :DbContext
                     "the collapse of the Galactic Empire.",
                 ImageUrl = "https://upload.wikimedia.org/wikipedia/en/2/25/Foundation_gnome.jpg",
                 Price = 7.99m,
-                CategoryId = 3
+                CategoryId = 1
             },
             new Product
             {
